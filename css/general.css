@@ -1,0 +1,31 @@
+@import "root.css";
+* {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4 {
+    font-style: normal;
+    font-family: 'Didot';
+    font-weight: 700;
+    color: var(--black);
+}
+h1 {
+    font-size: 72px;
+    line-height: 86px;
+}
+h2 {
+    font-size: 64px;
+    line-height: 52px;
+}
+h3 {
+    font-size: 48px;
+    line-height: 52px;
+}
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+.container {
+    margin: 10px 0;
+    background: var(--lightgray);
+}
