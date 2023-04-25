@@ -1,0 +1,68 @@
+@import "general.css";
+@import "./media/my-account.css";
+
+.account-container,.login,.wishlist-elem,.name-like,.account-wishlist,.account-login {
+    display: flex;
+}
+.account-container {
+    padding: 0 20px;
+}
+.login {
+    flex-direction: column;
+}
+.login > input {
+    border-radius: 10px;
+    border: 1px solid var(--lightmilk);
+    outline: none;
+    padding: 15px;
+    background: transparent;
+    margin-bottom: 10px;
+}
+.account-right {
+    width: 300px;
+}
+.name-like {
+    margin-bottom: 50px;
+}
+.price {
+    font-size: 20px;
+    color: var(--brown);
+}
+.wishlist-container {
+    width: 100%;
+}
+.wishlist-info {
+    width: 100%;
+}
+.wishlist-elem {
+    margin-bottom: 20px;
+}
+.name-like {
+    justify-content: space-between;
+}
+.name {
+    color: #2D2D2B;
+    font-size: 20px;
+}
+.account-left {
+    background: var(--lightmilk);
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 100px;
+    height: 293px;
+}
+.wishlist-img {
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-image: url("../pics/wishlist1.png");
+}
+.like-btn-container {
+    display: none;
+}
+.input1::placeholder {
+    color: var(--gray);
+}

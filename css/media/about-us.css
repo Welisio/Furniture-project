@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1100px) {
+    .txt-img {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .txt-img {
+        flex-direction: column;
+    }
+    .about-us-info {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .txt-img {
+        margin-bottom: 20px !important;
+    }
+    .number {
+        text-align: center;
+    }
+    .info-elem {
+        margin-bottom: 30px;
+    }
+    .about-us-info {
+        flex-direction: column;
+    }
+}

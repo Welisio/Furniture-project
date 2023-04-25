@@ -1,0 +1,18 @@
+@media only screen and (max-width: 768px) {
+    .noshow {
+        display: none !important;
+    }
+    .checkout-top,.personal-info > .input-blocks {
+        flex-direction: column;
+    }
+    .radio-mob {
+        display: block !important;
+    }
+    .radio-mob-block {
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .personal-info,.input-blocks > .input-block:first-child {
+        margin-right: 0px !important;
+    }
+}
