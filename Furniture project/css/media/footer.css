@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+    .footer-top,.footer-top-elems {
+        flex-direction: column;
+    }
+    .footer-top-elem {
+        margin-bottom: 25px;
+    }
+    .footer-top {
+        align-items: flex-start !important;
+    }
+}

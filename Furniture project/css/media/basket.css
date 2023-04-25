@@ -1,0 +1,20 @@
+@media only screen and (max-width: 940px) {
+    .elems-summary {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .basket-elem {
+        align-items: normal !important;
+        flex-direction: column;
+        padding: 20px 30px !important;
+    }
+    .basket-elem > div:not(:last-child),.basket-elem > img {
+        margin-bottom: 25px;
+    }
+    .price {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

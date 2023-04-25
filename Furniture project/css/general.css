@@ -1,0 +1,248 @@
+@import "root.css";
+@import "header.css";
+@import "font.css";
+@import "media/general.css";
+@import "contact-us.css";
+@import "footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+.like-btn-container,.like-btn,.page-nav,.pages-container,.pages-container > ul,
+.buy-now-btn-normal,.lines,.btn-brown,.wishlist,.info,.qty,.qty > div {
+    display: flex;
+}
+h1,h2,h3,h4,.mob-h2 {
+    font-style: normal;
+    font-family: 'Didot';
+    font-weight: 700;
+    color: #2D2D2B;
+}
+h1 {
+    font-size: 72px;
+    line-height: 86px;
+}
+h2 {
+    font-size: 64px;
+    line-height: 52px;
+}
+h3 {
+    font-size: 48px;
+    line-height: 52px;
+}
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+.shop-now-btn-normal,.learn-more-btn-normal,.sort-by-btn {
+    display: flex;
+}
+.container {
+    padding: 10px 0;
+    background: var(--lightgray);
+}
+.shop-now-btn-normal,.buy-now-btn-normal {
+    height: 50px;
+    width: 300px;
+    background: var(--brown);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: var(--lightgray);
+    cursor: pointer;
+}
+.shop-now-btn-normal > svg {
+    margin-right: 10px;
+}
+.shop-now-btn-text,.learn-more-btn-text {
+    font-weight: 500;
+}
+.learn-more-btn-normal {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: var(--brown);
+    cursor: pointer;
+    border: 1px solid var(--brown);
+}
+.login-normal-btn {
+    width: 300px;
+    background: var(--brown);
+    border-radius: 10px;
+    padding: 15px 30px;
+    align-items: center;
+    justify-content: center;
+    color: var(--lightgray);
+    cursor: pointer;
+    border: 0;
+}
+.btn-brown {
+    height: 50px;
+    background: var(--brown);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: var(--lightgray);
+    cursor: pointer;
+}
+.product-price {
+    color: var(--brown);
+}
+.product-img {
+    height: 260px;
+    width: 330px;
+    background-image: url("../pics/home5.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+.product > * {
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+.like-btn {
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    border-radius: 5px;
+}
+.like-btn-container {
+    padding: 15px 15px 0 0;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.page-nav {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.page-nav > li {
+    margin-right: 10px;
+}
+.nav-elem1,.nav-elem2 {
+    color: #2D2D2B;
+}
+.nav-elem1 { 
+    opacity: 0.5;
+}
+.about-us-txt {
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+.about-us-img {
+    margin-right: 50px;
+}
+.about-us-first-paragraph,.about-us-second-paragraph {
+    line-height: 24px;
+    font-weight: 400;
+    color: #2D2D2B;
+}
+.about-us-first-paragraph {
+    margin-bottom: 15px;
+}
+.sort-by-btn {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: var(--brown);
+    cursor: pointer;
+    border: 1px solid var(--brown);
+}
+.subtitle {
+    line-height: 24px;
+    color:  #2D2D2B;
+}
+.pages-container {
+    justify-content: flex-end;
+}
+.pages-container > ul > li {
+    margin-right: 15px;
+}
+.slider-btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+.circle {
+    display: flex;
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    background: var(--brown);
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.lines {
+    align-items: center;
+    margin-bottom: 100px;
+}
+.tall-line2 {
+    width: 25%;
+    height: 5px;
+    background: var(--brown);
+}
+.thin-line {
+    height: 2px;
+    width: 100%;
+    background: var(--lightmilk);
+}
+.blured-block-text {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    color: var(--lightgray);
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7.5px);
+}
+.my-account-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.info,.wishlist,.log-out {
+    cursor: pointer;
+}
+.info > svg,.wishlist > svg,.log-out > svg {
+    margin-right: 10px;
+}
+.info,.wishlist {
+    margin-bottom: 20px;
+}
+.white-line {
+    height: 1px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.plus,.num,.minus {
+    height: 40px;
+    width: 50px;
+    border-radius: 10px;
+    color: var(--brown);
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.plus,.num {
+    margin-right: 15px;
+}
+.num {
+    border: 1px solid var(--brown)
+}
+.plus,.minus {
+    background: #E5DED4;
+}
