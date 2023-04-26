@@ -1,0 +1,46 @@
+@media only screen and (max-width: 940px) {
+    h1 {
+        font-size: 60px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 42px !important;
+    }
+    h2 {
+        line-height: 72px !important;
+    }
+    .filter {
+        display: none;
+    }
+    .mobile-btns {
+        display: block !important;
+    }
+    .mobile-btns > div:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .sort-by-btn-mob,.categories-btn,.collections-btn {
+        display: flex;
+        height: 50px;
+        width: 95%;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+        color: var(--brown);
+        cursor: pointer;
+        border: 1px solid var(--brown);
+    }
+    
+}
+@media only screen and (max-width: 520px) {
+    h1 {
+        font-size: 32px !important;
+    }
+    .mob-h2 {
+        font-size: 24px !important;
+    }
+    .pages-container {
+        justify-content: center !important;
+    }
+}

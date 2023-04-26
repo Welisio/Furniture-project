@@ -1,0 +1,28 @@
+@import "general.css";
+@import "media/collections.css";
+
+.collections-container {
+    padding: 0 20px;
+}
+.collections-container > .subtitle {
+    width: 400px;
+}
+.collections-container > *:not(:last-child) {
+    margin-bottom: 40px;
+}
+.collections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+}
+.collection {
+    display: flex;
+    align-items: flex-end;
+    height: 180px;
+    width: 300px;
+    border-radius: 10px;
+    background-image: url(../pics/collection1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-bottom: 20px;
+}

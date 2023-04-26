@@ -1,0 +1,32 @@
+@import "general.css";
+@import "./media/about-us.css";
+
+.txt-img,.about-us-info-wrapper,.about-us-info {
+    display: flex;
+}
+.about-us-container {
+    padding: 0 20px;
+    margin-bottom: 100px;
+}
+.about-us-container > h2 {
+    margin-bottom: 50px;
+}
+.txt-img {
+    margin-bottom: 100px;
+}
+.about-us-info-wrapper {
+    justify-content: center;
+}
+.about-us-info {
+    width: 80%;
+    justify-content: space-between;
+}
+.number {
+    color: var(--brown);
+    margin-bottom: 20px;
+}
+.word {
+    text-align: center;
+    font-size: 20px;
+    color: #2D2D2B;
+}

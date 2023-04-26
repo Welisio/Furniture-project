@@ -1,0 +1,117 @@
+@import "general.css";
+@import "./media/checkout.css";
+
+.input-block,.checkout-top,.input-blocks,.checkout-bottom,.radio-elem,.circle1-container {
+    display: flex;
+}
+.checkout-container {
+    padding: 0 20px;
+}
+.checkout-container > h2 {
+    margin-bottom: 25px;
+}
+.personal-info > .subtitle,.card-info > .subtitle {
+    margin-bottom: 20px;
+}
+.input-blocks > .input-block:first-child {
+    margin-right: 20px;
+}
+.input-block {
+    flex-direction: column;
+}
+.personal-info {
+    margin-right: 100px;
+}
+.checkout-container input {
+    border-radius: 10px;
+    border: 1px solid var(--lightmilk);
+    outline: none;
+    padding: 15px;
+    background: transparent;
+    margin-bottom: 20px;
+}
+.checkout-container input::placeholder {
+    color: var(--gray);
+}
+.payment-method {
+    margin-right: 40px;
+}
+.payment-method > .subtitle,.delivery-method > .subtitle {
+    margin-bottom: 10px;
+}
+.delivery-method {
+    margin-right: 40px;
+}
+.radio-elem {
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.radio-elem > input {
+    display: none;
+    opacity: 0;
+}
+.circle1-container {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--gray);
+    margin-right: 25px;
+}
+.radio-elem input:checked ~ .circle1-container {
+    border: 1px solid var(--brown) !important;
+}
+.radio-elem input:checked ~ .circle1-container > .circle1 {
+    height: 15px;
+    width: 15px;
+    background: var(--brown);
+    border-radius: 50%;
+}
+.circle1-container {
+    align-items: center;
+    justify-content: center;
+}
+.btn-brown {
+    width: 200px;
+}
+.radio-mob {
+    display: none;
+}
+.dialog {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 300px; 
+    display: flex;
+    height: 300px; 
+    background: var(--lightgray); 
+    padding: 10px;
+}
+.dialog > *:not(:last-child) {
+    margin-bottom: 40px;
+}
+.cross {
+    display: flex;
+    justify-content: flex-end;
+}
+.dialog-msg {
+    text-align: center;
+}
+.dialog-btn-container > .btn-brown > a {
+    color: var(--lightgray);
+}
+.dialog-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dialog > h4 {
+    text-align: center;
+}
+.cross {
+    cursor: pointer;
+}
+.title2 {
+    font-size: 20px;
+    font-weight: 500;
+}
