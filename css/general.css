@@ -125,7 +125,7 @@ h4 {
 .page-nav > li {
     margin-right: 10px;
 }
-.nav-elem1,.nav-elem2 {
+.nav-elem1,.nav-elem2,.nav-elem1 > a {
     color: #2D2D2B;
 }
 .nav-elem1 { 
@@ -245,4 +245,24 @@ h4 {
 }
 .plus,.minus {
     background: #E5DED4;
+}
+.shadow {
+    height: 100vh;
+    background:#2D2D2B;
+    opacity: 0.3;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.cross-icon {
+    cursor: pointer;
+}
+.swiper-wrapper {
+    cursor: grab !important;
+}
+.buy-now-btn-normal > svg,.learn-more-btn-normal > svg {
+    margin-right: 5px;
+}
+.pages-container > ul > li {
+    cursor: pointer;
 }

@@ -4,7 +4,7 @@
 @import "footer.css";
 
 .discount-container,.discount-block,.products-top
-.lines-collections,.products-top {
+.lines-collections,.products-top,.header-phrase-img {
     display: flex;
 }
 .header-phrase-img {
@@ -118,4 +118,23 @@
 }
 .collections-slider-mob {
     display: none;
+}
+.basket-icon-link {
+    position: relative;
+}
+.basket-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    width: 18px;
+    background: #2D2D2B;
+    border-radius: 50%;
+    position: absolute;
+    color: #fff;
+    top: -14px;
+    left: 13px;
+}
+.shop-now-btn-text > a {
+    color: var(--lightgray);
 }

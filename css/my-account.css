@@ -66,3 +66,9 @@
 .input1::placeholder {
     color: var(--gray);
 }
+.like-btn2 {
+    cursor: pointer;
+}
+.heart-container1,.heart-container2 {
+    margin-right: 10px;
+}

@@ -6,6 +6,7 @@
     padding: 0 20px;
 }
 .header-top {
+    position: relative;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
@@ -46,3 +47,41 @@
 .search-mob-menu > svg:first-child {
     margin-right: 30px;
 }
+.mob-menu-icon {
+    cursor: pointer;
+}
+.mob-menu {
+    position: absolute;
+}
+.search-icon {
+    cursor: pointer;
+ }
+ .search-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background: var(--lightgray);
+    z-index: 3;
+ }
+ .search-field > .cross-icon {
+    margin-right: 5px;
+ }
+ .search-field > svg:first-child {
+    margin-left: 5px;
+ }
+ .search-field > *:not(:last-child) {
+    margin-right: 10px;
+ }
+ .search-field > input {
+    height: 30px;
+    width: 100%;
+    outline: none;
+    background: transparent;
+    border: none;
+ }
+ .search-mob-menu > svg:first-child {
+    cursor: pointer;
+ }

@@ -77,3 +77,41 @@
 .radio-mob {
     display: none;
 }
+.dialog {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 300px; 
+    display: flex;
+    height: 300px; 
+    background: var(--lightgray); 
+    padding: 10px;
+}
+.dialog > *:not(:last-child) {
+    margin-bottom: 40px;
+}
+.cross {
+    display: flex;
+    justify-content: flex-end;
+}
+.dialog-msg {
+    text-align: center;
+}
+.dialog-btn-container > .btn-brown > a {
+    color: var(--lightgray);
+}
+.dialog-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dialog > h4 {
+    text-align: center;
+}
+.cross {
+    cursor: pointer;
+}
+.title2 {
+    font-size: 20px;
+    font-weight: 500;
+}
